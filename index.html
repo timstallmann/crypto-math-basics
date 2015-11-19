@@ -59,6 +59,15 @@
 					</ul>
 				</section>
 				<section>
+					<p>Goals of public-key/private-key cryptography</p>
+					<ul>
+						<li>Encryption (a third-party can't intercept communication)</li>
+						<li>Verifiability (I know that you're the person who's saying what you're saying)</li>
+						<li>Avoiding deniability (If you say something you can't later deny saying it)</li>
+						<li>Avoiding tampering (a third-party can't modify messages)</li>
+					</ul>
+				</section>
+				<section>
 					<h1>Public-key cryptography: Core concepts</h1>
 					<ul>
 						<li>Public key & private key</li>
@@ -103,11 +112,6 @@
 						<li>Person two chooses a secret key j and computes a^j, and shares that with person one</li>
 						<li>The shared secret is a^(k*j) = (a^k)^j = (a^j)^k</li>
 					</ol> 
-				</section>
-				<section>
-					<h1>RSA cryptography</h1>
-					<img src="fermats_little_theorem.png">
-					<img src="eulers_theorem.png">
 				</section>
 				<section>
 					<img src="rsa_cryptosystem.png">
